@@ -1,71 +1,113 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>南京遨迩科技有限公司</title>
-    <meta charset="utf-8">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #0a1f3c;
-            color: white;
-            text-align: center;
-        }
-
-        .header {
-            padding: 120px 20px;
-            background: linear-gradient(to right, #0a1f3c, #132b52);
-        }
-
-        h1 {
-            font-size: 42px;
-            margin-bottom: 20px;
-        }
-
-        .section {
-            padding: 60px 20px;
-            background-color: #132b52;
-        }
-
-        .section:nth-child(even) {
-            background-color: #0f2445;
-        }
-
-        .footer {
-            padding: 30px;
-            background-color: #08152a;
-            font-size: 14px;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="companyName">南京遨迩科技有限公司</title>
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
-
 <body>
 
-<div class="header">
-    <h1>南京遨迩科技有限公司</h1>
-    <p>专注气象雷达与光电探测技术</p>
-</div>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <div class="logo"></div>
+        <div class="brand-title">
+          <strong data-i18n="companyName">南京遨迩科技有限公司</strong>
+          <span data-i18n="tagline">专注气象雷达与光电探测技术</span>
+        </div>
+      </a>
 
-<div class="section">
-    <h2>核心业务</h2>
-    <p>气象雷达系统研发</p>
-    <p>光电探测系统</p>
-    <p>通信技术开发</p>
-    <p>信息系统集成服务</p>
-</div>
+      <nav class="menu">
+        <a href="index.html" data-i18n="navHome">首页</a>
+        <a href="products.html" data-i18n="navProducts">产品</a>
+        <a href="about.html" data-i18n="navAbout">公司简介</a>
+        <a href="contact.html" data-i18n="navContact">联系我们</a>
+      </nav>
 
-<div class="section">
-    <h2>公司简介</h2>
-    <p>
-        南京遨迩科技有限公司致力于气象雷达、
-        光电技术及通信系统的研发与集成，
-        为智慧气象监测提供专业解决方案。
-    </p>
-</div>
+      <div class="actions">
+        <button class="btn" id="langToggle">EN</button>
+        <a class="btn btn-primary" href="contact.html" data-i18n="ctaContact">联系合作</a>
+      </div>
+    </div>
+  </header>
 
-<div class="footer">
-    <p>© 2026 南京遨迩科技有限公司</p>
-</div>
+  <main class="container">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="card hero-main">
+          <div class="kicker" data-i18n="heroKicker">Weather Radar • Optoelectronics • System Integration</div>
+          <h1 data-i18n="heroTitle">面向智慧气象的雷达与光电技术方案</h1>
+          <p class="sub" data-i18n="heroSub">
+            聚焦雷达信号处理、嵌入式/FPGA开发、仪器仪表研发与信息系统集成，为气象监测、科研与工程项目提供可靠的产品与解决方案。
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="products.html" data-i18n="ctaProducts">查看产品</a>
+            <a class="btn" href="about.html" data-i18n="navAbout">公司简介</a>
+          </div>
+        </div>
 
+        <div class="card hero-side">
+          <div class="stat">
+            <strong data-i18n="stat1T">核心能力</strong>
+            <span data-i18n="stat1S">雷达/光电/通信系统研发与集成</span>
+          </div>
+          <div class="stat">
+            <strong data-i18n="stat2T">交付方向</strong>
+            <span data-i18n="stat2S">气象监测、科研试验、工程部署</span>
+          </div>
+          <div class="stat">
+            <strong data-i18n="stat3T">服务模式</strong>
+            <span data-i18n="stat3S">方案咨询 • 研发定制 • 系统集成</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 data-i18n="secBiz">核心业务</h2>
+      <div class="grid-3">
+        <div class="card feature">
+          <h3 data-i18n="f1T">气象雷达系统</h3>
+          <p data-i18n="f1P">包含雷达前端、信号处理、数据链路与平台软件，支持工程部署与定制化开发。</p>
+        </div>
+        <div class="card feature">
+          <h3 data-i18n="f2T">光电探测与测量</h3>
+          <p data-i18n="f2P">光电传感与测量系统设计与集成，面向环境监测、目标探测与科研场景。</p>
+        </div>
+        <div class="card feature">
+          <h3 data-i18n="f3T">通信与信息系统集成</h3>
+          <p data-i18n="f3P">软硬件研发、数据接口与系统集成服务，支持端到端交付。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 data-i18n="secProducts">产品展示</h2>
+      <div class="products-grid">
+        <div class="card product">
+          <span class="badge" data-i18n="p1B">Radar</span>
+          <h3 data-i18n="p1T">X波段/Ku波段气象雷达（示例）</h3>
+          <p data-i18n="p1P">用于降水、风场与回波监测的雷达系统方案，可按项目需求定制。</p>
+        </div>
+        <div class="card product">
+          <span class="badge" data-i18n="p2B">Module</span>
+          <h3 data-i18n="p2T">雷达信号处理模块（FPGA/DSP）</h3>
+          <p data-i18n="p2P">面向高速采集与实时处理的算法与硬件实现。</p>
+        </div>
+        <div class="card product">
+          <span class="badge" data-i18n="p3B">Platform</span>
+          <h3 data-i18n="p3T">气象数据平台与可视化（示例）</h3>
+          <p data-i18n="p3P">支持数据接入、存储、质控、展示与API对接。</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div data-i18n="footer">© 2026 南京遨迩科技有限公司</div>
+    </footer>
+  </main>
+
+  <script src="assets/site.js"></script>
 </body>
 </html>
