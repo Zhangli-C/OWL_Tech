@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="navProducts">产品</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
 
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <div class="logo"></div>
+        <div class="brand-title">
+          <strong data-i18n="companyName">南京遨迩科技有限公司</strong>
+          <span data-i18n="tagline">专注气象雷达与光电探测技术</span>
+        </div>
+      </a>
+
+      <nav class="menu">
+        <a href="index.html" data-i18n="navHome">首页</a>
+        <a href="products.html" data-i18n="navProducts">产品</a>
+        <a href="about.html" data-i18n="navAbout">公司简介</a>
+        <a href="contact.html" data-i18n="navContact">联系我们</a>
+      </nav>
+
+      <div class="actions">
+        <button class="btn" id="langToggle">EN</button>
+        <a class="btn btn-primary" href="contact.html" data-i18n="ctaContact">联系合作</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card hero-main" style="padding:22px">
+        <div class="kicker" data-i18n="secProducts">产品展示</div>
+        <h1 style="margin-top:10px" data-i18n="secProducts">产品展示</h1>
+        <p class="sub" data-i18n="heroSub"></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="products-grid">
+        <div class="card product">
+          <span class="badge" data-i18n="p1B">Radar</span>
+          <h3 data-i18n="p1T">X波段/Ku波段气象雷达（示例）</h3>
+          <p data-i18n="p1P"></p>
+          <ul>
+            <li data-i18n="p1L1">发射/接收与射频前端</li>
+            <li data-i18n="p1L2">信号处理与数据链路</li>
+            <li data-i18n="p1L3">平台软件与接口对接</li>
+          </ul>
+        </div>
+
+        <div class="card product">
+          <span class="badge" data-i18n="p2B">Module</span>
+          <h3 data-i18n="p2T"></h3>
+          <p data-i18n="p2P"></p>
+          <ul>
+            <li data-i18n="p2L1"></li>
+            <li data-i18n="p2L2"></li>
+            <li data-i18n="p2L3"></li>
+          </ul>
+        </div>
+
+        <div class="card product">
+          <span class="badge" data-i18n="p3B">Platform</span>
+          <h3 data-i18n="p3T"></h3>
+          <p data-i18n="p3P"></p>
+          <ul>
+            <li data-i18n="p3L1"></li>
+            <li data-i18n="p3L2"></li>
+            <li data-i18n="p3L3"></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div data-i18n="footer">© 2026 南京遨迩科技有限公司</div>
+    </footer>
+  </main>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>
