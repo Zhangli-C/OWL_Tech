@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="navContact">联系我们</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
 
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <div class="logo"></div>
+        <div class="brand-title">
+          <strong data-i18n="companyName">南京遨迩科技有限公司</strong>
+          <span data-i18n="tagline">专注气象雷达与光电探测技术</span>
+        </div>
+      </a>
+
+      <nav class="menu">
+        <a href="index.html" data-i18n="navHome">首页</a>
+        <a href="products.html" data-i18n="navProducts">产品</a>
+        <a href="about.html" data-i18n="navAbout">公司简介</a>
+        <a href="contact.html" data-i18n="navContact">联系我们</a>
+      </nav>
+
+      <div class="actions">
+        <button class="btn" id="langToggle">EN</button>
+        <a class="btn btn-primary" href="products.html" data-i18n="ctaProducts">查看产品</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card hero-main" style="padding:22px">
+        <div class="kicker" data-i18n="secContact">联系我们</div>
+        <h1 style="margin-top:10px" data-i18n="secContact">联系我们</h1>
+        <p class="sub" data-i18n="contactP"></p>
+
+        <div class="grid-3" style="grid-template-columns:1fr; gap:12px">
+          <div class="card feature">
+            <h3 data-i18n="fieldAddr">地址</h3>
+            <p class="sub">南京市（请替换为你的详细地址）</p>
+          </div>
+          <div class="card feature">
+            <h3 data-i18n="fieldEmail">邮箱</h3>
+            <p class="sub">contact@OWL-tech.com（请替换）</p>
+          </div>
+          <div class="card feature">
+            <h3 data-i18n="fieldPhone">电话</h3>
+            <p class="sub">025-xxxxxxx（请替换）</p>
+          </div>
+
+          <!-- 可选：简单留言（静态页面不带后台，仅展示） -->
+          <div class="card feature">
+            <h3 data-i18n="fieldMsg">留言</h3>
+            <p class="sub">如需在线表单，可后续接入 Google Forms / 腾讯问卷（免费）并嵌入。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div data-i18n="footer">© 2026 南京遨迩科技有限公司</div>
+    </footer>
+  </main>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>
