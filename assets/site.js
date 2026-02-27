@@ -56,7 +56,7 @@
       footer: "© 2026 南京遨迩科技有限公司"
     },
     en: {
-      companyName: "Nanjing Aoer Technology Co., Ltd.",
+      companyName: "Nanjing OWL Technology Co., Ltd.",
       tagline: "Weather Radar & Optoelectronics Solutions",
       navHome: "Home",
       navProducts: "Products",
@@ -100,7 +100,7 @@
       p3L2: "Data services & access control",
       p3L3: "Integration & maintenance",
       secAbout: "About Us",
-      aboutP1: "Nanjing Aoer Technology Co., Ltd. focuses on weather radar, optoelectronics, and communications integration, providing products and solutions for smart meteorology, emergency management, and research institutions.",
+      aboutP1: "Nanjing OWL Technology Co., Ltd. focuses on weather radar, optoelectronics, and communications integration, providing products and solutions for smart meteorology, emergency management, and research institutions.",
       aboutP2: "Our business scope includes electronics/security/optoelectronics/communications technology development and services, instrumentation and components R&D and sales, software/hardware development, and information system integration.",
       secContact: "Contact",
       contactP: "Let’s discuss cooperation (project consulting, joint R&D, system integration).",
@@ -108,7 +108,7 @@
       fieldEmail: "Email",
       fieldPhone: "Phone",
       fieldMsg: "Message",
-      footer: "© 2026 Nanjing Aoer Technology Co., Ltd."
+      footer: "© 2026 Nanjing OWL Technology Co., Ltd."
     }
   };
 
@@ -156,7 +156,7 @@
     document.documentElement.lang = (lang === "zh") ? "zh-CN" : "en";
   }
 
-  window.__AOER_LANG__ = { getLang, setLang };
+  window.__OWL_LANG__ = { getLang, setLang };
 
   document.addEventListener("DOMContentLoaded", ()=>{
     const lang = getLang();
